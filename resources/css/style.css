@@ -109,7 +109,7 @@ nav li a:hover {
 
 .hero-container {
     padding: 0.6923rem;
-    margin: 2rem auto;
+    margin: 1rem auto;
     border-radius: 20px;
     border: 5px solid var(--dark1);
     background: linear-gradient(to bottom, white, var(--medium1));
