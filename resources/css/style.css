@@ -480,11 +480,6 @@ footer p {
         justify-content: end;
     }
 
-    .org-name {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .hero .text2 {
         padding: 0;
         margin: 0;
