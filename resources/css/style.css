@@ -273,7 +273,6 @@ nav li a:hover {
 }
 
 .puppies .pic-container:hover {
-    transition: transform 0.5s linear;
     transform: scale(1.2);
     z-index: 5;
 }
