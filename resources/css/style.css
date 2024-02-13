@@ -264,7 +264,6 @@ nav li a:hover {
     border-radius: 15px;
     margin: 2px;
     transition: transform 0.5s linear;
-    transform: scale(1);
 }
 
 .puppies .pic-container img {
