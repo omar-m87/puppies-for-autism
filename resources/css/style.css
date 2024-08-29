@@ -246,7 +246,7 @@ nav li a:hover {
 .puppies h2 {
     background-color: white;
     text-transform: uppercase;
-    padding: 1.9231rem 0; 
+    padding: 1.9231rem 0;
 }
 
 .puppies .container {
@@ -353,6 +353,10 @@ nav li a:hover {
     font-weight: bolder;
 }
 
+.events p em {
+    font-size: 0.75rem;
+}
+
 /* FOOTER SECTION */
 footer {
     background-color: var(--dark2);
@@ -394,10 +398,6 @@ footer p {
 @media only screen and (max-width: 900px) and (min-height: 600px) {
     .logo .text1, .logo .text2 {
         display: none;
-    }
-
-    .hero-container {
-        margin: 5.5rem auto;
     }
 }
 
@@ -449,7 +449,24 @@ footer p {
 
 }
 
-@media only screen and (max-height: 500px) {    
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 0.7692rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .events p em, .events p span {
+        font-size: 0.65rem;
+    }
+    
+    .optional {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-height: 500px) {
     .hero-container p {
         display: none;
     }
@@ -459,6 +476,10 @@ footer p {
 @media only screen and (max-width: 470px) {
     html {
         font-size: 16px;
+    }
+
+    header {
+        font-size: 0.9rem;
     }
 
     .hero-container {
